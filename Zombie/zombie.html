@@ -14,7 +14,7 @@
 
     <script>
         // declare and initialize score
-        let score = 0
+        let score = 0;
 
         // functions for first zombie
         setInterval(function moveZombie() {
@@ -29,7 +29,7 @@
             score = score + 1
             document.getElementById('score').innerHTML = score;
             document.getElementById('sound').play();
-            document.getElementById('zombie').src = "images/boom.gif";
+            document.getElementById('zombie').src = "images/explode.gif";
         }
 
         function zombieReappear() {
@@ -49,7 +49,7 @@
             score = score + 1
             document.getElementById('score').innerHTML=score;
             document.getElementById('sound2').play();
-            document.getElementById('zombie2').src = "images/boom.gif";
+            document.getElementById('zombie2').src = "images/explode.gif";
         }
 
         function zombieReappear2() {

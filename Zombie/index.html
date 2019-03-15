@@ -68,8 +68,8 @@
         // both zombies appear at a random location to start, that original location is saved for use when user wants to reset/end game
         let width = window.innerWidth;
         let height = window.innerHeight;
-        let originalRandomLocation1 = [Math.floor((Math.random() * (width - 200)) + 1), Math.floor((Math.random() * (height - 200)) + 1)]
-        let originalRandomLocation2 = [Math.floor((Math.random() * (width - 200)) + 1), Math.floor((Math.random() * (height - 200)) + 1)]
+        let originalRandomLocation1 = [Math.floor((Math.random() * (width - 200)) + 1), Math.floor((Math.random() * (height - 200)) + 1)];
+        let originalRandomLocation2 = [Math.floor((Math.random() * (width - 200)) + 1), Math.floor((Math.random() * (height - 200)) + 1)];
 
         document.getElementById('zombie').style.left = originalRandomLocation1[0] + "px";
         document.getElementById('zombie').style.top = originalRandomLocation1[1] + "px";

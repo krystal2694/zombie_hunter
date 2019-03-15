@@ -1,8 +1,11 @@
 body { 
-    background: url('../../Zombie/images/creepy_forrest.jpg') no-repeat center center fixed; 
+    background: url('../images/creepy_forrest.jpg') no-repeat center center fixed; 
     background-size: cover;
 }
 
+* {
+    cursor: url('../images/sniper.cur'), default;
+}
 img#zombie {
     left: 50px;
     top: 20px;

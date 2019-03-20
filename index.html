@@ -1,87 +1,80 @@
 <!DOCTYPE html>
-<html>
-
-    <head>
-        <style> 
-        a {
-        color: black;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-decoration: none;
-        }
-        div {
-        border:1px solid black
-        }
-        div:hover {
-        border:3px dotted black
-        }
-        </style>
-        <title>Index</title>
-    </head>
-
-    <body style="background-color:powderblue;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <title>Krystal Wong</title>
+</head>
+<body>
+    <div id="profile">
+        <img id="profilepic" src="images/me.png" alt="Picture of Me" width="275" height="205">
         <h2>Krystal Wong</h2>
-        <h4>A Little About Me:</h4>
+        <h3>A Little About Me:</h3>
         <p>My name is Krystal, I just began my CST journey at BCIT! I have no previous programming or computer experience, but 
             am eager and excited to learn. Before entering this program, I worked in the hospitality industry for over 5
             years. I'm looking forward to using the social and interpersonal skills I've gained to compliment everything I will be
             learning in this program! </p>
-        <img src="images/Krystal.jpg" alt="Picture of Me" width="210" height="210" style = "border: 2px black solid">
-        
-        <h4>List of Courses I Am Taking This Semester:</h4>
+     </div>
+    <div id="container">
+        <h3>List of Courses I Am Taking This Semester:</h3>
     
         <a href = "https://www.bcit.ca/study/outlines/comp1930">
-            <div style = "background-color: lightslategray">
-                <h3>COMP 1930 - Projects</h3>
-                <p>Students learn to work in a collaborative environment and complete a small-scale software project: a web app. </p>
+            <div class="courses" style = "background-color: lightslategray">
+                <h3 class="coursesContent">COMP 1930 - Projects</h3>
+                <p class="coursesContent">Students learn to work in a collaborative environment and complete a small-scale software project: a web app. </p>
             </div>
         </a> 
-    </br>       
+        </br>       
         <a href = "https://www.bcit.ca/study/outlines/comp1536">
-            <div style = "background-color:lightsteelblue">
-                <h3>COMP 1536 - Into To Web Development</h3> 
-                <p>This course is a web design and programming course with an emphasis on good planning, interface design, multimedia, client-side scripting with JavaScript, server-side scripting, and best practices.</p>
+            <div class="courses" style = "background-color:lightsteelblue">
+                <h3 class="coursesContent">COMP 1536 - Into To Web Development</h3> 
+                <p class="coursesContent">This course is a web design and programming course with an emphasis on good planning, interface design, multimedia, client-side scripting with JavaScript, server-side scripting, and best practices.</p>
             </div>
         </a>
-    </br>
+        </br>
         <a href="https://www.bcit.ca/study/outlines/comp1510">
-            <div style = "background-color: lightslategray">
-                <h3>COMP 1510 - Programming Methods</h3>
-                <p>This course introduces the fundamental concepts of programming including design, development, testing, debugging simple programs, as well as error-handling, and problem solving.</p>
+            <div class="courses" style = "background-color: lightslategray">
+                <h3 class="coursesContent">COMP 1510 - Programming Methods</h3>
+                <p class="coursesContent">This course introduces the fundamental concepts of programming including design, development, testing, debugging simple programs, as well as error-handling, and problem solving.</p>
             </div>
         </a>
-    </br>
+        </br>
         <a href="https://www.bcit.ca/study/outlines/comm1116">
-            <div style = "background-color:lightsteelblue">
-                <h3>COMM 1116 - Business Communications</h3>
-                <p>This course will teach you how to be a professional and efficient communicator at work. You will write effective business correspondence and instructions and deliver a formal oral presentation to your set.</p>
+            <div class="courses" style = "background-color:lightsteelblue">
+                <h3 class="coursesContent">COMM 1116 - Business Communications</h3>
+                <p class="coursesContent">This course will teach you how to be a professional and efficient communicator at work. You will write effective business correspondence and instructions and deliver a formal oral presentation to your set.</p>
             </div>
         </a>
-    </br>
+        </br>
         <a href="https://www.bcit.ca/study/outlines/comp1712">
-            <div style = "background-color: lightslategray">
-                <h3>COMP 1712 - Biz Analysis and Systems Design</h3>
-                <p>By the end of this course, successful participants will be able to use tools and methods commonly used in industry to analyze, design, and implement information systems as confirmed by a term project.</p>
+            <div class="courses" style = "background-color: lightslategray">
+                <h3 class="coursesContent">COMP 1712 - Biz Analysis and Systems Design</h3>
+                <p class="coursesContent">By the end of this course, successful participants will be able to use tools and methods commonly used in industry to analyze, design, and implement information systems as confirmed by a term project.</p>
             </div>
         </a>
-    </br>
+        </br>
         <a href="https://www.bcit.ca/study/outlines/comp1100">
-            <div style = "background-color:lightsteelblue">
-                 <h3>COMP 1100 - CST Program Fundamentals </h3>
-                 <p>In this course students will learn a variety of different techniques to improve study habits, note taking, and time management skills.</p>
+            <div class="courses" style = "background-color:lightsteelblue">
+                 <h3 class="coursesContent">COMP 1100 - CST Program Fundamentals </h3>
+                 <p class="coursesContent">In this course students will learn a variety of different techniques to improve study habits, note taking, and time management skills.</p>
             </div>
         </a>
-    </br>
+        </br>
         <a href="https://www.bcit.ca/study/outlines/comp1113">
-            <div style = "background-color: lightslategray">
-                <h3>COMP 1113 - Applied Mathematics</h3>
-                <p>Comp 1113 is partially discrete mathematics, partially an introduction to linear equations. The purpose of this course is to give a strong foundation for future technical and programming courses.</p>
+            <div class="courses" style = "background-color: lightslategray">
+                <h3 class="coursesContent">COMP 1113 - Applied Mathematics</h3>
+                <p class="coursesContent">Comp 1113 is partially discrete mathematics, partially an introduction to linear equations. The purpose of this course is to give a strong foundation for future technical and programming courses.</p>
             </div>
         </a>
-    </br>
+        </br>
+    </div>
 
-        <a href="https://www.bcit.ca/"><img src="images/BCIT.jpg" alt="BCIT" width="210" height="160"></a>
+        <a id ="bcit" href="https://www.bcit.ca/"><img src="images/BCIT.jpg" alt="BCIT" width="210" height="160"></a>
 </br>
-        <a href="https://www.cartoonstock.com/directory/c/computer_science.asp"><img src="images/Cartoon.jpg" alt="cartoon" width="200" height="250"></a>
+        <a id ="cartoon" href="https://www.cartoonstock.com/directory/c/computer_science.asp"><img src="images/Cartoon.jpg" alt="cartoon" width="200" height="250"></a>
 </br>
 
     </body>

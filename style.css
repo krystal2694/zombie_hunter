@@ -1,0 +1,54 @@
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.courses {
+    border:1px solid black;
+    max-width: 1000px;
+    margin: auto;
+    height: 120px;
+}
+
+.coursesContent {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.courses:hover {
+    border:2px dotted black;
+}
+
+body {
+    background-color: black;
+    font-family: 'Kalam';
+    color: white;
+}
+
+#bcit {
+    float: left;
+    position: relative;
+    bottom: -70px;
+}
+
+#cartoon {
+    float: right;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#profilepic {
+   float: right;
+}
+
+#profile {
+    width: 1000px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}

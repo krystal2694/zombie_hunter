@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    font-family: 'Kalam';
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    border: 3px solid pink;
+}
+#width {
+    width:1000px;
+    margin: auto;
+}
+  
+#maxwidth {
+    max-width:1000px;
+    margin: auto;
+}
+
+#fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+}
+
+#relative {
+    position: relative;
+    left: 60px;
+}
+
+#ancestor {
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+#absolute {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    bottom: 0px;
+    left: 10px;
+}
+
+#overflow {
+    padding: 15px;
+    width: 300px;
+    height: 150px;
+    overflow: scroll;
+}
+
+#sticky {
+    position: sticky;
+    top: 0px;
+    background-color: pink;
+    color: black;
+}
+
+#floatRight {
+    float: left;
+    position: relative;
+    top: -10px;
+}
+
+#textForFloat {
+    width: 450px;
+}
+
+#floatClear {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid pink;
+}
+
+#clear {
+    border: 3px solid pink;
+    clear: left;
+}
+
+#verticalAlign {
+    border: 3px solid pink;
+    padding: 50px;
+    text-align: center;
+}

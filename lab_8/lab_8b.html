@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <title>Lab 8 Part B</title>
+</head>
+<body>
+    <h1>CSS Layout Rules</h1>
+
+    <div id="width">This div element has width: 700px.</div>
+    <br>
+    <div id="maxwidth">This div element has max-width: 700px.</div>
+    <br>
+    <div id="fixed">This div element has position: fixed.</div>
+    
+    <div id="relative">This div element has position: relative. It has been moved 60px to the right.</div>
+    <br>
+    <div id="ancestor">
+        The div element below is positioned relative to this
+        div element since it is the nearest positioned ancestor.
+        <div id="absolute">This div element has position: absolute.</div>
+    </div>
+    <br>
+    <div id="overflow">
+        The div element below demonstrates sticky position.
+        <div id="sticky">This div element has position: sticky.</div>
+        The text in this div element is too long to fit in the container. A scrollbar
+        is added so the user can scroll through and read the contents. If the overflow
+        property was set to hidden, you would not be able to see any of the text that
+        overflows outside of the container.
+    </div>
+    <br>
+    <div id="textForFloat">
+        <p><img id="floatRight" src="images/gif.webp">
+        This image demonstrates the property float: left.
+        When there is text and an image within the same element,
+        The float property can help you position the image to the left or right.
+        I also used relative positioning to move the image 10px up from where it was.
+        </p>
+    </div>
+    <br>
+    <div id="floatClear">flaoting div</div>
+    <div id="clear">Here, clear: left; moves this div down below the floating div.</div>
+    <br>
+    <div id="verticalAlign">This text is horizontally and vertically centered using text align and padding.</div>
+</body>
+</html>

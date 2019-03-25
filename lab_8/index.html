@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 8 Part A</title>
+</head>
+<body>
+    <script>
+        function createButtons(num) {
+            for (let i = 1; i <=num; i++) {
+                let btn = document.createElement("button");
+                document.body.appendChild(btn);
+                btn.innerHTML = String.fromCharCode(i + 64);
+                btn.style.borderRadius = "4px";
+                btn.style.backgroundColor = "pink";
+                btn.style.width = "35px";
+                btn.style.height = "30px";
+
+                btn.addEventListener("click", function() {
+                    console.log("Button " + String.fromCharCode(i + 64) + " was clicked")
+                });
+            }
+        }
+        createButtons(7)
+    </script>
+    <br>
+    <a href="lab_8b.html">Link to Part B of Lab</a>
+</body>
+</html>
